@@ -1,9 +1,9 @@
 %
-%   Description: 
+%   Description: Target density function
 %
 %   Author: Thor P. Nielsen
 %   
-%   Input: Data vector, number of bins, function for density
+%   Input: x to evaluate in the target density function
 
 
 function result = ftargetdensity(u1)
