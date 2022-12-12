@@ -1,3 +1,8 @@
+% Description: Shows cholesky decomposition of covariance matrix
+%
+%
+
+  
 clear all; clc;
 
 %Define a covaraiance matrix
