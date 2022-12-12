@@ -13,7 +13,7 @@ clear; close; clc
 H= [0.25 0.5 0.75];                 %Hurst parameter
 n=4100;                   %Time length
 
-%Erklærer nogle sager
+%ErklÃ¦rer nogle sager
 mSigma=NaN(n,n);
 Y=NaN(length(H),n);
 payout=NaN(length(H),1);
