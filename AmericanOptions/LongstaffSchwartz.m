@@ -4,13 +4,16 @@
 %   Comments: 
 %   0. The brute force method is way too slow: Monte Carlo in Monte Carlo to estimate
 %   continuation value
-%   1. Not at all optimized
-%   2. note we truncate on x variable to only take paths in the money which has been shown to improve performance of
-%   method. 
+%   1. Not at all optimized code
+%   2. note we truncate on x variable to only take paths in the money which has been shown to "improve performance" of
+%   method
 %   3. We are using constant interest rate and fixed step size.
 %   4. We are estimating a stopping rule but we wont get the optimal one so
 %   we have a slight negative bias
-%
+%   5. Note this is the simplest possible example; We could also have bonds which depend on many tenor points on interest rate curve
+%   6. We could also have an option like max(S1,S2,S3,0) - this would give rise to more complex regression steps including interaction terms etc.
+%   7. Current best practice is to use Chebyshev polynomials or Neural Networks instead of regression
+%   8. Original article;
 %   Longstaff-Schwartz: https://people.math.ethz.ch/~hjfurrer/teaching/LongstaffSchwartzAmericanOptionsLeastSquareMonteCarlo.pdf
 %
 %
