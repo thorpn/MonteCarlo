@@ -1,4 +1,5 @@
-%Since the area of the unit circle is pi, we can simulate dots on 
+%
+% Description: A classic simulation example: Estimating pi by simulating dots on unit circle (area=pi) on the square
 %([-1,1],[-1,1]) and multiply ratio of dots inside unit cirlce to outside
 %by 4 (area of square) to estimate pi.
 
