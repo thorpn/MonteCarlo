@@ -1,7 +1,4 @@
 % Description: Shows cholesky decomposition of covariance matrix
-%
-%
-
   
 clear all; clc;
 
@@ -22,8 +19,3 @@ plot(Y(:,1),Y(:,2),'.')
 %Prints sigma and cholesky factor
 Sigma
 C'
-
-
-
-
-
