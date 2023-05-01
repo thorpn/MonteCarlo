@@ -1,3 +1,5 @@
+%Simulates tail behavior of Normal/t copulas to illustrate tail dependence behavior
+
 clear all;
 clc;
 
