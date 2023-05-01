@@ -13,8 +13,7 @@ for i=1:R
     % remember to also give normrnd the 1, or you get a (huge) matrix
     X = normrnd(mu,sqrt(Sigma2),n,1);
     
-    %Estimates (first estimator is the built in average..
-    %How would you speed code up if estimator1 was complicated?
+    %The two estimators
     ThetaHat1(i) = mean(X);
     ThetaHat2(i) = (mean(X)+5/n)*2;
     
