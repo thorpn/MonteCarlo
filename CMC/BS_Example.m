@@ -1,10 +1,5 @@
-%
 % Description: Simulates the Black-Scholes model and prices an EU call option along with a confidence interval
 %
-%
-%
-%
-
 
 %Clears memory and screen
 clear all; clc;
