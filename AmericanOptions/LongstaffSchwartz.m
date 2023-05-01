@@ -11,6 +11,7 @@
 %   3. We are using constant interest rate and fixed step size.
 %   4. We are estimating a stopping rule but we wont get the optimal one so
 %   we have a slight negative bias
+%   5. State of the art method is based on Chebychev-polynomials, see eg. https://arxiv.org/abs/1806.05579
 %
 %   Longstaff-Schwartz (LS): https://people.math.ethz.ch/~hjfurrer/teaching/LongstaffSchwartzAmericanOptionsLeastSquareMonteCarlo.pdf
 %
